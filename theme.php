@@ -57,7 +57,7 @@
 			</div>
 		</section>
 
-		<section class="container>
+		<section class="container">
 			<div class="row">
 				<div class="col-lg-12 my-auto text-center padding40">
 					<?= $Wcms->page('content') ?>

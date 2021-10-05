@@ -50,7 +50,7 @@
 
 		<section class="container-fluid flex-grow">
 			<div class="row">
-				<div class="col-lg-12 my-auto">
+				<div class="my-auto">
 					<?= $Wcms->block('subside') ?>
 
 				</div>
@@ -59,7 +59,7 @@
 
 		<section class="container">
 			<div class="row">
-				<div class="col-lg-12 my-auto">
+				<div class="my-auto">
 					<?= $Wcms->page('content') ?>
 
 				</div>

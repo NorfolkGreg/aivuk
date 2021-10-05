@@ -67,7 +67,7 @@
 		</section>
 
 		<footer class="footer">
-			<div class="container-fluid py-3 text-right">
+			<div class="container-fluid text-right">
 				<?= $Wcms->footer() ?>
 			</div>
 		</footer>

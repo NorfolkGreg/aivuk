@@ -11,15 +11,6 @@
 		<meta name="title" content="<?= $Wcms->get('config', 'siteTitle') ?> - <?= $Wcms->page('title') ?>" />
 		<meta name="description" content="<?= $Wcms->page('description') ?>">
 		<meta name="keywords" content="<?= $Wcms->page('keywords') ?>">
-
-		<meta property="og:url" content="<?= $this->url() ?>" />
-		<meta property="og:type" content="website" />
-		<meta property="og:site_name" content="<?= $Wcms->get('config', 'siteTitle') ?>" />
-		<meta property="og:title" content="<?= $Wcms->page('title') ?>" />
-		<meta name="twitter:site" content="<?= $this->url() ?>" />
-		<meta name="twitter:title" content="<?= $Wcms->get('config', 'siteTitle') ?> - <?= $Wcms->page('title') ?>" />
-		<meta name="twitter:description" content="<?= $Wcms->page('description') ?>" />
-
 		<title><?= $Wcms->get('config', 'siteTitle') ?> - <?= $Wcms->page('title') ?></title>
 
 		<link rel="stylesheet" rel="preload" as="style" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -57,21 +48,19 @@
 			</div>
 		</nav>
 
-		<section class="container mt-5 mb-5">
+		<section class="container-fluid mt-5 mb-5 flex-grow">
 			<div class="row">
 				<div class="col-lg-12 my-auto text-center padding40">
-					<?= $Wcms->page('content') ?>
+					<?= $Wcms->block('subside') ?>
 
 				</div>
 			</div>
 		</section>
 
-		<div class="h-05"></div>
-
-		<section class="container-fluid mt-5 mb-5 flex-grow">
-			<div class="row customBackground">
-				<div class="col-lg-12 my-auto text-center padding40 resetTextRotation">
-					<?= $Wcms->block('subside') ?>
+		<section class="container mt-5 mb-5">
+			<div class="row">
+				<div class="col-lg-12 my-auto text-center padding40">
+					<?= $Wcms->page('content') ?>
 
 				</div>
 			</div>

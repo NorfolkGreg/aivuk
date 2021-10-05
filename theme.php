@@ -48,7 +48,7 @@
 			</div>
 		</nav>
 
-		<section class="container-fluid mt-5 mb-5 flex-grow">
+		<section class="container-fluid flex-grow">
 			<div class="row">
 				<div class="col-lg-12 my-auto text-center padding40">
 					<?= $Wcms->block('subside') ?>
@@ -57,7 +57,7 @@
 			</div>
 		</section>
 
-		<section class="container mt-5 mb-5">
+		<section class="container>
 			<div class="row">
 				<div class="col-lg-12 my-auto text-center padding40">
 					<?= $Wcms->page('content') ?>

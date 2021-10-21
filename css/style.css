@@ -7,7 +7,6 @@ html, body {
 	overflow-x: hidden
 }
 
-/* ============= Start Added Code =================	*/
 div#wrapper {
 	background-color: #fffff9;
 	max-width: 960px;
@@ -22,22 +21,10 @@ div#wrapper {
 	margin-right:auto;
 	margin-left:auto
 }
-@media (max-width:992px) {
-	.container,.container-md,.container-sm {
-		max-width:100%
-	}
-}
-
-
-/* ============= End Added Code =================	*/
 
 a, a:hover, a:active {
 	color: #f24932
 }
-
-.h-05 {height: 0.5% !important}
-
-h1 {font-size: 5rem !important}
 
 .navbar {
 	margin: 0;
@@ -91,9 +78,111 @@ ul.nav.navbar-nav.navbar-right li a:hover, {
 	border-bottom: 1px solid #000;
 }
 
-/* ============= Start Added Code =================	*/
 section.main {
 	margin-top: 1em;
+	font-size: 1em;
+}
+
+section.main h1 {
+	font-size: 1.5em;
+	color: #660000;	
+	font-weight: 900;
+	padding-left: 25px;
+	background-image: url("..images/bullet.gif");
+	background-position: 0px 3px;
+	background-repeat: no-repeat;
+}
+
+section.main h1 img {
+	margin-right: 0.25em;
+}
+
+section.main h2 {
+	font-size: 1.2em;
+	color: #660000;
+	font-weight: 900;
+	padding-left: 25px;
+	background-image: url("../images/bullet.gif");
+	background-position: 0px 3px;
+	background-repeat: no-repeat;
+}
+
+section.main h2 img {
+	margin-right: 0.25em;
+	margin-bottom: -2px;
+}
+
+section.main img.portrait {
+	float: right;
+	width: 200px;
+	height: 200px;
+	margin-top: -2em;
+	margin-bottom: 0.5em;
+	margin-left: 0.5em;
+}
+
+section.main h3 {
+	color: #660000;
+	font-size: 1em;
+	float: left;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	margin-right: 0.5em;
+}
+
+section.main img.center {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+
+section.main img.right {
+	float: right;
+}
+
+section.main dl {
+	padding-top: 0em;
+	padding-right: 0em;
+	padding-bottom: 0em;
+	padding-left: 0em;
+	margin-top: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+}
+
+section.main dt {
+	color: #660000;
+	font-weight: bold;
+	margin-right: 0.5em;
+}
+
+section.main dd {
+	margin-left: 0em;
+	margin-bottom: 1em;
+}
+
+section.main ul {
+	clear: left;
+	margin-top: 0em;
+}
+
+section.main ul#postcode {
+	clear: none;
+}
+
+section.main a:link {
+	color: #cc3300;
+	text-decoration: none;
+}
+
+section.main a:hover {
+	text-decoration: underline;
+}
+
+section.main a:visited {
+	color: #cc3300;
+	text-decoration: underline;
 }
 
 footer {
@@ -141,9 +230,12 @@ footer strong {
 footer p.link a:hover, footer p.designer a:hover	{
 	text-decoration: underline;
 }
-/* ============= End Added Code =================	*/
 
-/* @media (min-width: 300px) and (max-width: 767px) { */
+@media (max-width:992px) {
+	.container,.container-md,.container-sm {
+		max-width:100%
+	}
+}
 
 @media (min-width: 300px) {
 	h1 {font-size: 3em !important}

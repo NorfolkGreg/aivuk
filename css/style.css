@@ -1,100 +1,152 @@
 html, body {
 	height: 100%;
 	position: relative;
-	box-shadow: 0 0 200px rgba(0, 0, 0, 0.27) inset;
-	color: #fff;
+	color: #000;
+	background-color: #ddd;
 	font-family: "Lucida Sans Unicode", Verdana;
-	background: #665fee;
-	background-image: -webkit-linear-gradient(45deg, rgb(102, 95, 238) 0%, rgb(39, 194, 222) 100%);
 	overflow-x: hidden
 }
 
-@font-face {
-	font-display: swap
+/* ============= Start Added Code =================	*/
+div#wrapper {
+	background-color: #fffff9;
+	max-width: 960px;
+	min-height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 5px;
 }
 
-.flex-grow {
-	flex: 1
+.container {
+	width:100%;
+	margin-right:auto;
+	margin-left:auto
 }
+@media (max-width:992px) {
+	.container,.container-md,.container-sm {
+		max-width:100%
+	}
+}
+
+
+/* ============= End Added Code =================	*/
 
 a, a:hover, a:active {
-	color: #bfe1ff
+	color: #f24932
 }
 
 .h-05 {height: 0.5% !important}
+
 h1 {font-size: 5rem !important}
-.padding40 {padding: 40px}
-.navbar-default .navbar-toggle {border: 0}
-.navbar-light .navbar-nav .nav-link {color: #dfdfdf}
-.navbar-light .navbar-brand, .navbar-light:hover .navbar-brand:hover {color: #fff}
-.nav li > a {padding: 20px}
+
+.navbar {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-default .navbar-toggle {
+	border: 2px solid #f00;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light:hover .navbar-brand:hover {
+	color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #000;
+	background-color: #ddd;
+	padding-left: 5px;
+}
+
+.nav li > a {
+	padding: 20px
+}
 
 .navbar li {
 	font-size: 16px;
 	text-transform: small-caps;
-	margin-right: 25px
 }
 
 .navbar, .navbar-collapse {
-	border: 0;
 	background: none;
-	padding-top: 10px
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #999;
 }
 
-ul.nav.navbar-nav.navbar-right li a:hover, ul.nav.navbar-nav.navbar-right li.active a {
-	color: #ffffff;
-	background: none;
-	border-bottom: 1px solid #a5d5ff
+.navbar-collapse {
+	border: none;
 }
 
-.footer {
-	color: #dfdfdf;
-	font-size: 13px;
-	padding: 20px
+ul.nav.navbar-nav.navbar-right li.active a {
+	color: #fff;
+	background-color: #f24932;
+	padding-left: 5px;
 }
 
-.customBackground {
-	min-height: 110%;
-	min-width: 110%;
-	left: -50px;
-	background-color: #f2f4f9;
-	-webkit-transform: rotate(-4deg);
-	-ms-transform: rotate(-4deg);
-	transform: rotate(-4deg);
-	z-index: 1041;
-	color: #212529;
-	position: relative
+ul.nav.navbar-nav.navbar-right li a:hover, {
+	color: #000;
+	background-color: #ddd;
+	border-bottom: 1px solid #000;
 }
 
-.resetTextRotation {
-	transform: rotate(4deg) !important;
-	max-width: 92%;
-	left: 50px
+/* ============= Start Added Code =================	*/
+section.main {
+	margin-top: 1em;
 }
 
+footer {
+	border-top: 1px solid #999;
+	height: 25px;
+	padding-top: 0px;
+	background-image: url("../images/bullet.gif");
+	background-position: 0px 3px;
+	background-repeat: no-repeat;
+}
 
-@media (min-width: 300px) and (max-width: 767px) {
+footer p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.6em;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding-left: 25px;
+}
+
+footer p.link {
+	float: right;
+	margin-top: 0px;
+}
+
+footer p.designer {
+	float right;
+	text-align: right;
+}
+
+footer p.link a, footer p.designer a {
+	color: #660000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer img {
+	vertical-align: middle;
+	margin-right: 0.5em;
+}
+
+footer strong {
+	color: #660000;
+}
+
+footer p.link a:hover, footer p.designer a:hover	{
+	text-decoration: underline;
+}
+/* ============= End Added Code =================	*/
+
+/* @media (min-width: 300px) and (max-width: 767px) { */
+
+@media (min-width: 300px) {
 	h1 {font-size: 3em !important}
-
-	.navbar-brand {
-		white-space: normal !important
-	}
-
-	.customBackground {
-		min-height: 80%;
-		min-width: 140%;
-		left: -40px;
-		background-color: #f2f4f9;
-		-webkit-transform: rotate(-4deg);
-		-ms-transform: rotate(-4deg);
-		transform: rotate(-4deg);
-		z-index: 1041;
-		color: #212529;
-		position: relative
-	}
-
-	.resetTextRotation {
-		transform: rotate(4deg) !important;
-		max-width: 70%
-	}
+	div.container {width:100%; margin-right:auto;margin-left:auto;}
+	.navbar-brand {white-space: normal !important}
 }

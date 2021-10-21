@@ -6,9 +6,9 @@ Theme currently under construction as a first project
 
 ### Features Planned
 Header/Menu area to include facility for a Site Logo
-Under the header an area for additional links
 Fonts and Colour Scheme to meet the needs of the organisation
-for which it was originally designed.
+for which it was originally designed. (so will need editing for
+other users)
 
 ## Preview Not Yet Ready!
 ![Theme preview](/preview.jpg)

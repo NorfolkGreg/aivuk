@@ -4,6 +4,7 @@ html, body {
 	color: #000;
 	background-color: #ddd;
 	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
 	overflow-x: hidden
 }
 
@@ -20,10 +21,6 @@ div#wrapper {
 	width:100%;
 	margin-right:auto;
 	margin-left:auto
-}
-
-a, a:hover, a:active {
-	color: #f24932
 }
 
 .navbar {
@@ -72,11 +69,12 @@ ul.nav.navbar-nav.navbar-right li.active a {
 	padding-left: 5px;
 }
 
-ul.nav.navbar-nav.navbar-right li a:hover, {
-	color: #000;
-	background-color: #ddd;
-	border-bottom: 1px solid #000;
+ul.nav.navbar-nav.navbar-right li a:hover, #menu-collapse a:hover {
+	color: #fff;
+	background-color: #f24932;
+/*	border-bottom: 1px solid #000; */
 }
+
 
 section.main {
 	margin-top: 1em;
@@ -171,8 +169,14 @@ section.main ul#postcode {
 	clear: none;
 }
 
+/*
+section.main a, section.main a:hover, section.main a:active {
+	color: #f24932
+}
+*/
+
 section.main a:link {
-	color: #cc3300;
+	color: #f24932;
 	text-decoration: none;
 }
 
@@ -181,7 +185,7 @@ section.main a:hover {
 }
 
 section.main a:visited {
-	color: #cc3300;
+	color: #f24932;
 	text-decoration: underline;
 }
 

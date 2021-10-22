@@ -72,7 +72,6 @@ ul.nav.navbar-nav.navbar-right li.active a {
 ul.nav.navbar-nav.navbar-right li a:hover, #menu-collapse a:hover {
 	color: #fff;
 	background-color: #f24932;
-/*	border-bottom: 1px solid #000; */
 }
 
 
@@ -87,7 +86,7 @@ section.main h1 {
 	font-weight: 900;
 	padding-left: 25px;
 	background-image: url("../images/bullet.gif");
-	background-position: 0px 3px;
+	background-position: 0px 5px;
 	background-repeat: no-repeat;
 }
 
@@ -208,7 +207,7 @@ footer p {
 
 footer p.link {
 	float: right;
-	margin-top: 0px;
+	margin-top: 3px;
 }
 
 footer p.designer {
@@ -242,7 +241,6 @@ footer p.link a:hover, footer p.designer a:hover	{
 }
 
 @media (min-width: 300px) {
-	h1 {font-size: 3em !important}
 	div.container {width:100%; margin-right:auto;margin-left:auto;}
 	.navbar-brand {white-space: normal !important}
 }

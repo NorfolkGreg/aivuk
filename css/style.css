@@ -1,13 +1,7 @@
-html, body {
-	height: 100%;
-	position: relative;
-	color: #000;
+html, body {	height: 100%;	position: relative;	color: #000;
 	background-color: #ddd;
 	font-family: Arial, Helvetica, sans-serif;
-	font-weight: normal;
-	overflow-x: hidden
-}
-
+	font-weight: normal;	overflow-x: hidden}
 div#wrapper {
 	background-color: #fffff9;
 	max-width: 960px;
@@ -30,50 +24,35 @@ div#wrapper {
 
 .navbar-default .navbar-toggle {
 	border: 2px solid #f00;
-}
-
+}
 .navbar-light .navbar-brand,
 .navbar-light:hover .navbar-brand:hover {
 	color: #000;
-}
-
+}
 .navbar-light .navbar-nav .nav-link {
-	color: #000;
-	background-color: #ddd;
-	padding-left: 5px;
-}
-
+	color: #000;	background-color: #ddd;	padding-left: 5px;
+}
 .nav li > a {
 	padding: 20px
-}
-
-.navbar li {
-	font-size: 16px;
-	text-transform: small-caps;
-}
-
-.navbar, .navbar-collapse {
-	background: none;
-	padding-top: 5px;
+}
+.navbar li {	font-size: 16px;	text-transform: small-caps;}
+.navbar, .navbar-collapse {	background: none;	padding-top: 5px;
 	padding-bottom: 5px;
-	border-bottom: 1px solid #999;
-}
-
+	border-bottom: 1px solid #999;}
 .navbar-collapse {
 	border: none;
 }
 
-ul.nav.navbar-nav.navbar-right li.active a {
+ul.nav.navbar-nav.navbar-right li.active a {
 	color: #fff;
 	background-color: #f24932;
 	padding-left: 5px;
-}
-
-ul.nav.navbar-nav.navbar-right li a:hover, #menu-collapse a:hover {
-	color: #fff;
+}
+ul.nav.navbar-nav.navbar-right li a:hover, #menu-collapse a:hover {	color: #fff;
 	background-color: #f24932;
 }
 
+/* ==================== */
 
 section.main {
 	margin-top: 1em;
@@ -109,15 +88,6 @@ section.main h2 img {
 	margin-bottom: -2px;
 }
 
-section.main img.portrait {
-	float: right;
-	width: 200px;
-	height: 200px;
-	margin-top: -2em;
-	margin-bottom: 0.5em;
-	margin-left: 0.5em;
-}
-
 section.main h3 {
 	color: #660000;
 	font-size: 1em;
@@ -125,6 +95,15 @@ section.main h3 {
 	margin-top: 0em;
 	margin-bottom: 0em;
 	margin-right: 0.5em;
+}
+
+section.main div.boxout {
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 1em;
+	border: 2px solid #F24932;
+	padding: 1em 1em 0 1em;
 }
 
 section.main img.center {
@@ -135,6 +114,15 @@ section.main img.center {
 
 section.main img.right {
 	float: right;
+}
+
+section.main img.portrait {
+	float: right;
+	width: 200px;
+	height: 200px;
+	margin-top: -2em;
+	margin-bottom: 0.5em;
+	margin-left: 0.5em;
 }
 
 section.main dl {
@@ -168,12 +156,6 @@ section.main ul#postcode {
 	clear: none;
 }
 
-/*
-section.main a, section.main a:hover, section.main a:active {
-	color: #f24932
-}
-*/
-
 section.main a:link {
 	color: #f24932;
 	text-decoration: none;
@@ -187,6 +169,8 @@ section.main a:visited {
 	color: #f24932;
 	text-decoration: underline;
 }
+
+/* ==================== */
 
 footer {
 	border-top: 1px solid #999;
@@ -242,5 +226,4 @@ footer p.link a:hover, footer p.designer a:hover	{
 
 @media (min-width: 300px) {
 	div.container {width:100%; margin-right:auto;margin-left:auto;}
-	.navbar-brand {white-space: normal !important}
-}
+	.navbar-brand {white-space: normal !important}}

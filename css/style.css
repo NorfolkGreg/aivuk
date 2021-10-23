@@ -250,3 +250,361 @@ footer p.link a:hover, footer p.designer a:hover	{
 
 @media (min-width: 300px) {
 	.navbar-brand {white-space: normal !important}}
+
+/* ==================== */
+
+@media (min-width:640px) {
+	ul#postcode {
+		margin: 0px;
+		padding: 0px;
+		list-style-type: none;
+		list-style-position: outside;
+		list-style-image: none;
+		background-color: transparent;
+		font-size: 15px;
+		font-family: arial, sans-serif;
+		height: 41px;
+		width: 750px;
+	}
+
+	ul#postcode ul {
+		padding: 0px;
+		margin: 0px;
+		list-style-type: none;
+		list-style-position: outside;
+		list-style-image: none;
+		position: absolute;
+		left: -9999px;
+	}
+
+	ul#postcode table {
+		border-collapse: collapse;
+		font-size: 2em;
+		float: left;
+		margin-top: -1px;
+		margin-right: -1px;
+		margin-bottom: -1px;
+		margin-left: -1px;
+	}
+
+	ul#postcode ul li {
+		float: left;
+		margin: 0px;
+		text-align: left;
+	}
+
+	ul#postcode ul li a {
+		display: block;
+		line-height: 20px;
+		margin: 0px;
+		padding: 0px 10px;
+		text-align: left;
+		background-color: transparent;
+		background-image: none;
+		background-repeat: repeat;
+		background-attachment: scroll;
+		background-position: 0% 0%;
+		width: 150px;
+	}
+
+	ul#postcode ul li a:visited {
+		color: #F24932;
+	}
+
+	ul#postcode ul li a p {
+		float: left;
+		margin: 0px;
+		width: 28px;
+	}
+
+	ul#postcode li {
+		display: inline;
+		margin: 0px; -2px;
+		text-align: left;
+	}
+
+	ul#postcode li a {
+		display: inline-block;
+		height: 36px;
+		margin-top: 5px; 0px; 0px;
+		text-align: center;
+		background-color: transparent;
+		background-image: url("../images/button.gif");
+		background-repeat: repeat;
+		background-attachment: scroll;
+		background-position: 0% 0%;
+		line-height: 30px;
+		text-decoration: none;
+		color: black;
+	}
+
+	html > body ul#postcode li {
+		display: inline-block;
+		padding: 0px;
+	}
+
+	* html ul#postcode li a {
+		margin-bottom: -4px;
+	}
+
+	ul#postcode li a b {
+		display: block;
+		float: left;
+		height: 36px;
+		width: 28px;
+		background-color: transparent;
+		background-image: url("../images/button.gif");
+		background-repeat: repeat;
+		background-attachment: scroll;
+		background-position: 0% 0%;
+		cursor: pointer;
+		color: #CC3300;
+	}
+
+	ul#postcode li a:hover {
+		position: relative;
+		background-position: right bottom;
+		color: white;
+	}
+
+	ul#postcode li a:hover b {
+		background-position: left bottom;
+		color: white;
+	}
+
+	ul#postcode li:hover {
+		position: relative;
+	}
+
+	ul#postcode li:hover > a {
+		background-position: right bottom;
+		color: white;
+	}
+
+	ul#postcode li:hover > a b {
+		background-position: left bottom;
+		color: white
+	}
+
+	ul#postcode :hover ul {
+		left: 1px;
+		width: 105px;
+		top: 41px;
+	}
+
+	* html ul#postcode :hover ul {
+		top: 36px;
+	}
+
+	ul#postcode :hover ul li {
+		display: block;
+		float: left;
+		margin: 0px;
+		border: 1px solid white;
+	}
+
+	ul#postcode :hover ul li a {
+		display: block;
+		float: left;
+		margin: 0px;
+		height: 25px;
+		line-height: 25px;
+		width: 195px;
+		background-color: #DDDDDD;
+		background-image: none;
+		background-repeat: repeat;
+		background-attachment: scroll;
+		background-position: 0% 0%;
+		color: black;
+		text-decoration: none;
+	}
+
+	ul#postcode :hover ul li a.narrow {
+		width: 170px;
+	}
+
+	ul#postcode :hover ul li a.arrow {
+		background-color: #DDDDDD;
+		background-image: url("../images/arrow.gif");
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-position: right center;
+	}
+
+	ul#postcode :hover ul li a:hover {
+		background-color: #F24932;
+		background-image: none;
+		background-repeat: repeat;
+		background-attachment: scroll;
+		background-position: 0% 0%;
+		color: white;
+	}
+
+	ul#postcode :hover ul li:hover > a {
+		background-color: #F24932;
+		background-image: none;
+		background-repeat: repeat;
+		background-attachment: scroll;
+		background-position: 0% 0%;
+		color: white;
+	}
+
+	ul#postcode :hover ul ul {
+		left: -9999px;
+	}
+
+	ul#postcode :hover ul :hover ul {
+		left: 195px;
+		top: 0px;
+		width: 150px;
+	}
+
+	ul#postcode :hover ul :hover ul li {
+		display: block;
+		float: left;
+		margin: 0px;
+		border-bottom-width: 1px solid white;
+	}
+
+	ul#postcode :hover ul :hover ul li a {
+		display: block;
+		float: left;
+		margin: 0px;
+		height: 25px;
+		line-height: 25px;
+		background-color: #BBBBBB;
+		background-image: none;
+		background-repeat: repeat;
+		background-attachment: scroll;
+		background-position: 0% 0%;
+		color: black;
+	}
+
+	ul#postcode :hover ul :hover ul li a:hover {
+		color: white;
+		background-color: #DD220A;
+		background-image: none;
+		background-repeat: repeat;
+		background-attachment: scroll;
+		background-position: 0% 0%;
+	}
+}
+
+@media (max-width:640px) {
+	footer {
+		margin-top: 420px;
+}
+
+	ul#postcode {
+		z-index: 1000;
+		padding: 0;
+		margin: 0 0 0 calc(50% - 125px);
+		 list-style-type: none;
+		  width: 40px;
+	}
+
+/* position relative so that you can position
+   the sub levels */
+	ul#postcode li {
+		position: relative;
+		background: #aaaaaa;
+		height: 41px;
+	}
+
+	ul#postcode ul {
+		margin: 0 0 0 40px;
+		padding: 0;
+		 list-style-type: none;
+	
+
+	ul#postcode ul li {
+		background: #dddddd;
+		width: 209px;
+	}
+
+	ul#postcode ul ul li {
+		background: #c9c9c9;
+		width: 169px;
+	}
+
+	/* style the links */
+	ul#postcode li a:link,
+	ul#postcode li a:visited {
+		font-family: arial, sans-serif;
+		display: block;
+		text-decoration: none;
+		height: 40px;
+		line-height: 40px;
+		width: 39px;
+		color: #f24932;
+		text-indent: 13px;
+		text-decoration: none;
+		border-right: 1px solid #ffffff;
+		border-bottom: 1px solid #ffffff;
+	}
+
+	ul#postcode ul a p {
+		float: left;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		width: 28px;
+	}
+
+	ul#postcode ul a:link,
+	ul#postcode ul a:visited {
+		color: #000000;
+		width: 249px;
+	}
+
+	ul#postcode ul ul li a:link,
+	ul#postcode ul ul li a:visited {
+		width: 169px;
+	}
+
+	/* style the link hover */
+	ul#postcode li:hover > a {
+		color: #ffffff;
+		background: #F24932;
+		text-decoration: none;
+	}
+
+	ul#postcode ul li:hover > a {
+		color: #ffffff;
+		width: 210px;
+	}
+
+	ul#postcode ul ul li:hover > a {
+		border-left: 1px solid #ffffff;
+		width: 169px;
+	}
+
+	/* hide the sub levels and give them a
+	positon absolute so that they take up no room */
+	ul#postcode ul {
+		visibility: hidden;
+		position: absolute;
+		top: 0;
+		z-index: 2000;
+	}
+
+	/* make the second level visible when hover
+	on first level list OR link */
+	ul#postcode li:hover ul,
+	ul#postcode a:hover ul {
+		visibility: visible;
+	}
+
+	/* keep the third level hidden when you hover
+	on first level list OR link */
+	ul#postcode li:hover ul ul{
+		visibility: hidden;
+	}
+
+	/* make the third level visible when you hover
+	over second level list OR link */
+	ul#postcode li:hover ul li:hover ul{
+		visibility: visible;
+	}
+}

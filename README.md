@@ -5,7 +5,7 @@ Fully responsive.
 Theme currently under construction as a first project
 
 ## Theme Highlights
-A colour scheem which features accents in orange and brown with a warm white
+A colour scheme which features accents in orange and brown with a warm white
 background.
 
 Header/Menu area include facility for a Site Logo and Site Name and Strap Line

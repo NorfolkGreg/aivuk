@@ -4,19 +4,24 @@ Fully responsive.
 ## Status
 Theme currently under construction as a first project
 
-## Theme Highlights
-A colour scheme which features accents in orange and brown with a warm white
-background.
+## Theme Design
+The theme was designed for a quasi-legal profressional organisation and
+therefore is particularly suitable for a text oriented site with only occasional
+decorative images to break up the text..
+
+## Theme Features
+A colour scheme with accents in orange and brown with a warm white background.
 
 Header/Menu area include facility for a Site Logo and Site Name and Strap Line
 each in their own font and to a colour scheme to meet the needs of the
 organisation for which it was originally designed.
 
-Headings h1 and h2 have logo bullet. h3 headings show in heading colour in
-bold, at the start of the following paragraph. Heading text for these main
-headings is brown (except within a "boxout").
+Headings h1 and h2 feature a graphic bullet intended to be the company logo.
+h3 headings show in heading colour in bold, at the start of the following
+paragraph. Heading text for these main headings is brown (except within a
+"boxout").
 
-Terms within Description lists are coloured brown.
+Terms within Description Lists are coloured brown.
 
 ### The Boxout Feature
 A "div" of class "boxout" is available that will provide an indented border

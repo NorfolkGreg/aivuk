@@ -12,7 +12,7 @@ decorative images to break up the text..
 ## Theme Features
 A colour scheme with accents in orange and brown with a warm white background.
 
-Header/Menu area include facility for a Site Logo and Site Name and Strap Line
+Header/Menu area include facility for a Site Logo, Site Name and Strap Line
 each in their own font and to a colour scheme to meet the needs of the
 organisation for which it was originally designed.
 

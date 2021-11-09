@@ -5,7 +5,7 @@ Fully responsive.
 Theme currently under construction as a first project
 
 ## Theme Design
-The theme was designed for a quasi-legal profressional organisation and
+The theme was designed for a quasi-legal professional organisation and
 therefore is particularly suitable for a text oriented site with only occasional
 decorative images to break up the text..
 

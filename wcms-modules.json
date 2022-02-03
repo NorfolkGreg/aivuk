@@ -4,7 +4,7 @@
         "aivuk": {
             "name": "AIVuk",
             "repo": "https://github.com/NorfolkGreg/aivuk/tree/master",
-            "zip": "https://github.com/NorfolkGreg/aivuk/archive/refs/heads/master.zip",
+            "zip": "https://github.com/NorfolkGreg/aivuk/archive/master.zip",
             "summary": "Designed for a quasi-legal professional organisation and suitable for a text oriented site with a few decorative images to break up the text.",
             "version": "3.2.1",
             "image": "https://raw.githubusercontent.com/NorfolkGreg/aivuk/master/preview.jpg"
